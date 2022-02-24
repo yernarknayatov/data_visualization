@@ -22,7 +22,7 @@ const svg = d3.select("#scatter_weather")
     .attr("transform", `translate(${dimensions.margin.left}, ${dimensions.margin.top})`);
 
 //Read the data
-d3.json("my_weather_data.json").then(function (data) {
+await d3.json("my_weather_data.json").then(async function (data) {
 
     // Add X axis
     console.log(data);
@@ -53,8 +53,8 @@ d3.json("my_weather_data.json").then(function (data) {
         .attr("cx", d => x(d.humidity))
         .attr("cy", d => y(d.dewPoint))
         .attr("r", d => r(d.temperatureMax))
-        .style('fill', function(d) {
-            if (d.windSpeed >= 3){
+        .style('fill', function (d) {
+            if (d.windSpeed >= 3) {
                 return "blue"
             } return "orange"
         })
