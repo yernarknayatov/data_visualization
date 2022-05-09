@@ -84,6 +84,9 @@ async function drawLineChart() {
 
   const xAxis = bounds.append("g").call(xAxisGenertor)
     .style("transform", `translateY(${dimensions.boundedHeight}px)`)
+
+  bounds.transition()
+  .duration(1000)
 }
 
 
