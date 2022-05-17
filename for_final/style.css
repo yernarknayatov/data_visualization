@@ -1,0 +1,159 @@
+.map {
+    width: 75%;
+    height: 550px;
+    position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+
+}
+
+/* #block_container
+{
+    text-align:center;
+} */
+#bloc1,
+#bloc2 {
+    display: inline;
+}
+
+.map_place {
+    height: 600px;
+}
+
+.hidden {
+    display: none;
+}
+
+#legend text {
+    font-size: 0.9em;
+    color: #333;
+    font-weight: 400;
+}
+
+.map_controller {
+    position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+.slider {
+    width: 70%;
+}
+
+div.tooltip {
+    color: #222;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    padding: 0.2em;
+    text-shadow: #f5f5f5 0 1px 0;
+    opacity: 0.9;
+    position: absolute;
+}
+
+div.tooltip_ {
+    color: #222;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px 0px #a6a6a6;
+    padding: 0.2em;
+    text-shadow: #f5f5f5 0 1px 0;
+    opacity: 0.9;
+    position: absolute;
+}
+
+text {
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+}
+
+text.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+text.subTitle {
+    font-weight: 500;
+    fill: #777777;
+}
+
+text.caption {
+    font-weight: 400;
+    font-size: 14px;
+    fill: #777777;
+}
+
+text.label {
+    font-weight: 600;
+}
+
+text.valueLabel {
+    font-weight: 300;
+}
+
+text.yearText {
+    font-size: 64px;
+    font-weight: 700;
+    opacity: 0.25;
+}
+
+.tick text {
+    fill: #777777;
+}
+
+.xAxis .tick:nth-child(2) text {
+    text-anchor: start;
+}
+
+.tick line {
+    shape-rendering: CrispEdges;
+    stroke: #dddddd;
+}
+
+.tick line.origin {
+    stroke: #aaaaaa;
+}
+
+path.domain {
+    display: none;
+}
+
+
+.legendThreshold {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+text.caption {
+    fill: #000;
+    text-anchor: start;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+text.year {
+    fill: #000;
+    text-anchor: start;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+div.bar_canada_kaz {
+    width: 1600px;
+    height: 800px;
+    position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding-bottom: 15%;
+}
